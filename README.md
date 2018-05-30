@@ -31,7 +31,7 @@ Mary 22
 Susie 18
 ```
 
-## 2.BEGIN END
+## 2.BEGIN 与 END
 
 ```
 [root@xen10-18 awk]# awk 'BEGIN {print "字段个数 名字 最后一列"} { print NF, $1, $NF } END {print "字段个数END 名字END 最后一列END"}' emp.data     
